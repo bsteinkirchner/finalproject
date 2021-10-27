@@ -48,8 +48,8 @@ nav a:visited{
 /* contact box */
 input[type=text], select, textarea {
     background-color: white;
-    width: 100%;
-    padding: 10px; 
+    width: 50%;
+    padding: 5px; 
     border: 1px solid #ccc; 
     border-radius: 10px; 
     box-sizing: border-box; 
@@ -61,6 +61,8 @@ input[type=text], select, textarea {
 .contactusbox{
     color:white;
     font-family: 'Comic Neue', cursive;
+    float:left;
+    margin:0
 }
 button{
     background-color: darkblue;
@@ -71,6 +73,10 @@ button{
 }
 button:hover{
     background-color: #59afff;
+}
+/* map */
+article{
+    float:right;
 }
 /* footer */
 .fab:hover{
