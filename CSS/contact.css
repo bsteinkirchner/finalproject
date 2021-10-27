@@ -46,37 +46,38 @@ nav a:visited{
     text-decoration: none;
 }
 /* contact box */
-input[type=text], select, textarea {
+input[type=text], textarea, button, h2{
     background-color: white;
-    width: 50%;
-    padding: 5px; 
+    width: 70%;
+    padding: 10px; 
     border: 1px solid #ccc; 
     border-radius: 10px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 10px; 
     font-family: 'Comic Neue', cursive;
-    text-align: left;
 }
 .contactusbox{
     color:white;
-    font-family: 'Comic Neue', cursive;
-    float:left;
-    margin:0
+    font-family: 'Comic Neue', cursive; 
+    border: white solid 3px; 
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding:10px;
+    border-radius:10px
 }
 button{
     background-color: darkblue;
     color:white;
     font-family: 'Comic Neue', cursive;
-    padding: 10px;
-    border-radius: 10px
+    border-radius: 10px;
+    text-align:center
 }
 button:hover{
     background-color: #59afff;
 }
 /* map */
-article{
-    float:right;
+iframe{
+    display: inline-block;
 }
 /* footer */
 .fab:hover{
